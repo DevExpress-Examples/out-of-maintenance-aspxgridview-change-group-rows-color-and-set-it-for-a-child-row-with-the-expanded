@@ -5,13 +5,13 @@ Imports System.Linq
 Imports System.Web
 Imports System.Web.UI
 Imports System.Web.UI.WebControls
-Imports DevExpress.Web.ASPxGridView
+Imports DevExpress.Web
 Imports System.Data
 Imports System.Drawing
 
 Partial Public Class _Default
 	Inherits System.Web.UI.Page
-	Protected Sub ASPxGridView1_HtmlRowPrepared(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewTableRowEventArgs)
+	Protected Sub ASPxGridView1_HtmlRowPrepared(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewTableRowEventArgs)
 		ColorGroupRow(e, Color.Pink, 0)
 	End Sub
 

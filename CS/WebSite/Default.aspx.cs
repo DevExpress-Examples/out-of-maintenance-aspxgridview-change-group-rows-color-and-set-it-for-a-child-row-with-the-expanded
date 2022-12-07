@@ -4,13 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using DevExpress.Web.ASPxGridView;
+using DevExpress.Web;
 using System.Data;
 using System.Drawing;
 
 public partial class _Default : System.Web.UI.Page
 {
-    protected void ASPxGridView1_HtmlRowPrepared(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewTableRowEventArgs e)
+    protected void ASPxGridView1_HtmlRowPrepared(object sender, DevExpress.Web.ASPxGridViewTableRowEventArgs e)
     {
         ColorGroupRow(e, Color.Pink, 0);
     }
